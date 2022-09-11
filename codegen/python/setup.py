@@ -100,11 +100,11 @@ setup(
     version="0.0.22",
     author="Accelerated Big Data Systems, Delft University of Technology",
     packages=find_packages(),
-    url="https://github.com/mreukers/fletcher",
+    url="https://github.com/matthijsr/fletcher",
     project_urls={
-        "Bug Tracker": "https://github.com/mreukers/fletcher/issues",
-        "Documentation": "https://mreukers.github.io/fletcher/",
-        "Source Code": "https://github.com/mreukers/fletcher/",
+        "Bug Tracker": "https://github.com/matthijsr/fletcher/issues",
+        "Documentation": "https://matthijsr.github.io/fletcher/",
+        "Source Code": "https://github.com/matthijsr/fletcher/",
     },
     ext_modules=[
         Extension(

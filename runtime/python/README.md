@@ -16,7 +16,7 @@ pip install pyfletcher
 
 In order to use pyfletcher to interface with FPGA's, please install the correct
 driver for your platform from the
-[repository](https://github.com/mreukers/fletcher/tree/develop/platforms).
+[repository](https://github.com/matthijsr/fletcher/tree/develop/platforms).
 It is recommended to install the echo platform for debugging and testing.
 
 # Building from source
@@ -27,7 +27,7 @@ pip install Cython numpy pyarrow
 ```
 
 Install the 
-[Fletcher C++ run-time library](https://github.com/mreukers/fletcher/tree/develop/runtime/cpp) 
+[Fletcher C++ run-time library](https://github.com/matthijsr/fletcher/tree/develop/runtime/cpp) 
 as follows:
 
 ```console
