@@ -7,7 +7,7 @@ project(
   HOMEPAGE_URL "https://github.com/abs-tudelft/fletcher"
   LANGUAGES CXX)
 
-find_package(Arrow 9.0.0 CONFIG REQUIRED)
+find_package(Arrow 8.0.0 CONFIG REQUIRED)
 
 include(FindThreads)
 include(FetchContent)
@@ -211,7 +211,7 @@ set(CPACK_DEBIAN_PACKAGE_MAINTAINER "${CPACK_PACKAGE_VENDOR}")
 set(CPACK_RPM_FILE_NAME "RPM-DEFAULT")
 set(CPACK_RPM_PACKAGE_DESCRIPTION "${CPACK_PACKAGE_DESCRIPTION}")
 set(CPACK_RPM_PACKAGE_LICENSE "ASL 2.0")
-set(CPACK_RPM_PACKAGE_REQUIRES "arrow-libs >= 9.0.0, arrow-libs < 10.0.0")
+set(CPACK_RPM_PACKAGE_REQUIRES "arrow-libs >= 8.0.0, arrow-libs < 9.0.0")
 
 set(CPACK_ARCHIVE_BINARY_FILE_NAME
     "${CMAKE_PROJECT_NAME}-${fletchgen_VERSION}-${CMAKE_SYSTEM_NAME}")

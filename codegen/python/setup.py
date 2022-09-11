@@ -132,7 +132,7 @@ setup(
     setup_requires=[
         'cython',
         'numpy',
-        'pyarrow == 9.0.0',
+        'pyarrow == 8.0.0',
         'plumbum'
     ],
     classifiers=[

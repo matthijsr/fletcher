@@ -132,12 +132,12 @@ setup(
     install_requires=[
         'numpy >= 1.14',
         'pandas',
-        'pyarrow == 9.0.0',
+        'pyarrow == 8.0.0',
     ],
     setup_requires=[
         'cython',
         'numpy',
-        'pyarrow == 9.0.0',
+        'pyarrow == 8.0.0',
         'plumbum',
         'pytest-runner'
     ],
