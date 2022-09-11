@@ -103,11 +103,11 @@ setup(
     description="A Python wrapper for the Fletcher runtime library",
     long_description=read('README.md'),
     long_description_content_type='text/markdown',
-    url="https://github.com/abs-tudelft/fletcher",
+    url="https://github.com/mreukers/fletcher",
     project_urls={
-        "Bug Tracker": "https://github.com/abs-tudelft/fletcher/issues",
-        "Documentation": "https://abs-tudelft.github.io/fletcher/",
-        "Source Code": "https://github.com/abs-tudelft/fletcher/",
+        "Bug Tracker": "https://github.com/mreukers/fletcher/issues",
+        "Documentation": "https://mreukers.github.io/fletcher/",
+        "Source Code": "https://github.com/mreukers/fletcher/",
     },
     ext_modules=[
         Extension(
