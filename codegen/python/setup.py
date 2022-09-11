@@ -97,14 +97,14 @@ class egg_info(_egg_info):
 
 setup(
     name="pyfletchgen",
-    version="0.0.21",
+    version="0.0.22",
     author="Accelerated Big Data Systems, Delft University of Technology",
     packages=find_packages(),
-    url="https://github.com/abs-tudelft/fletcher",
+    url="https://github.com/mreukers/fletcher",
     project_urls={
-        "Bug Tracker": "https://github.com/abs-tudelft/fletcher/issues",
-        "Documentation": "https://abs-tudelft.github.io/fletcher/",
-        "Source Code": "https://github.com/abs-tudelft/fletcher/",
+        "Bug Tracker": "https://github.com/mreukers/fletcher/issues",
+        "Documentation": "https://mreukers.github.io/fletcher/",
+        "Source Code": "https://github.com/mreukers/fletcher/",
     },
     ext_modules=[
         Extension(
@@ -132,7 +132,7 @@ setup(
     setup_requires=[
         'cython',
         'numpy',
-        'pyarrow == 7.0.0',
+        'pyarrow == 8.0.0',
         'plumbum'
     ],
     classifiers=[

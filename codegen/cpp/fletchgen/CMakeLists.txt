@@ -2,12 +2,12 @@ cmake_minimum_required(VERSION 3.14 FATAL_ERROR)
 
 project(
   fletchgen
-  VERSION 0.0.21
+  VERSION 0.0.22
   DESCRIPTION "The Fletcher design generator"
   HOMEPAGE_URL "https://github.com/abs-tudelft/fletcher"
   LANGUAGES CXX)
 
-find_package(Arrow 7.0.0 CONFIG REQUIRED)
+find_package(Arrow 8.0.0 CONFIG REQUIRED)
 
 include(FindThreads)
 include(FetchContent)
@@ -211,7 +211,7 @@ set(CPACK_DEBIAN_PACKAGE_MAINTAINER "${CPACK_PACKAGE_VENDOR}")
 set(CPACK_RPM_FILE_NAME "RPM-DEFAULT")
 set(CPACK_RPM_PACKAGE_DESCRIPTION "${CPACK_PACKAGE_DESCRIPTION}")
 set(CPACK_RPM_PACKAGE_LICENSE "ASL 2.0")
-set(CPACK_RPM_PACKAGE_REQUIRES "arrow-libs >= 7.0.0, arrow-libs < 8.0.0")
+set(CPACK_RPM_PACKAGE_REQUIRES "arrow-libs >= 8.0.0, arrow-libs < 9.0.0")
 
 set(CPACK_ARCHIVE_BINARY_FILE_NAME
     "${CMAKE_PROJECT_NAME}-${fletchgen_VERSION}-${CMAKE_SYSTEM_NAME}")

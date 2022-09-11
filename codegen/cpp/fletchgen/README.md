@@ -46,7 +46,7 @@ Fletchgen is under heavy development, so for now we'd recommend to make a debug
 build using CMake as follows:
 
 ```console
-git clone https://github.com/abs-tudelft/fletcher.git --recursive
+git clone https://github.com/mreukers/fletcher.git --recursive
 cd fletcher/codegen/cpp/fletchgen
 mkdir debug
 cd debug
