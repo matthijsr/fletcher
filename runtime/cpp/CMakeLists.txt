@@ -4,7 +4,7 @@ project(
   fletcher
   VERSION 0.0.22
   DESCRIPTION "The Fletcher runtime library"
-  HOMEPAGE_URL "https://github.com/mreukers/fletcher"
+  HOMEPAGE_URL "https://github.com/matthijsr/fletcher"
   LANGUAGES CXX)
 
 find_package(Arrow 8.0.0 CONFIG REQUIRED)

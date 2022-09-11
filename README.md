@@ -2,8 +2,8 @@
 
 # Fletcher: A framework to integrate FPGA accelerators with Apache Arrow
 
-[![License](https://badgen.net/github/license/mreukers/fletcher)](https://github.com/mreukers/fletcher/blob/develop/LICENSE)
-[![Last Commit](https://badgen.net/github/last-commit/mreukers/fletcher/develop)](https://badgen.net/github/last-commit/mreukers/fletcher/develop)
+[![License](https://badgen.net/github/license/matthijsr/fletcher)](https://github.com/matthijsr/fletcher/blob/develop/LICENSE)
+[![Last Commit](https://badgen.net/github/last-commit/matthijsr/fletcher/develop)](https://badgen.net/github/last-commit/matthijsr/fletcher/develop)
 
 Fletcher is a framework that helps to integrate FPGA accelerators with tools and
 frameworks that use Apache Arrow in their back-ends.
@@ -67,7 +67,7 @@ generates the following:
 - The following platforms are (partially) supported (may be work-in-progress):
   - [Amazon EC2 F1](https://github.com/abs-tudelft/fletcher-aws)
   - [Xilinx Alveo](https://github.com/abs-tudelft/fletcher-alveo)
-  - [Intel OPAE](https://github.com/mreukers/fletcher-opae)
+  - [Intel OPAE](https://github.com/matthijsr/fletcher-opae)
   - [OpenPOWER CAPI SNAP](https://github.com/abs-tudelft/fletcher-snap)
   - [OpenPOWER OpenCAPI OC-Accel](https://github.com/abs-tudelft/fletcher-oc-accel)
   - Our top-level can be generated to speak AXI, so it should be easy to
