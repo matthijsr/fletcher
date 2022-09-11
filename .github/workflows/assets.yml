@@ -113,7 +113,9 @@ jobs:
     steps:
       - name: Install dependencies
         run: |
-          yum install -y epel-release
+          dnf config-manager --set-enabled powertools
+          dnf install -y epel-release
+          dnf config-manager --enable epel
           yum install -y curl make rpm-build gcc-c++ git
       - name: Install CMake
         run: curl -L https://github.com/Kitware/CMake/releases/download/v$CMAKE_VERSION/cmake-$CMAKE_VERSION-Linux-x86_64.tar.gz | tar xz --strip-components=1 -C /usr
