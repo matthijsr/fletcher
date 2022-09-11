@@ -5,7 +5,7 @@ project(
   VERSION 0.0.0
   LANGUAGES CXX)
 
-find_package(Arrow 7.0.0 CONFIG REQUIRED)
+find_package(Arrow 9.0.0 CONFIG REQUIRED)
 
 include(FetchContent)
 

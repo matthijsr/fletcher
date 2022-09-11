@@ -97,7 +97,7 @@ class egg_info(_egg_info):
 
 setup(
     name="pyfletcher",
-    version="0.0.21",
+    version="0.0.22",
     author="Accelerated Big Data Systems, Delft University of Technology",
     packages=find_packages(),
     description="A Python wrapper for the Fletcher runtime library",
@@ -132,12 +132,12 @@ setup(
     install_requires=[
         'numpy >= 1.14',
         'pandas',
-        'pyarrow == 7.0.0',
+        'pyarrow == 9.0.0',
     ],
     setup_requires=[
         'cython',
         'numpy',
-        'pyarrow == 7.0.0',
+        'pyarrow == 9.0.0',
         'plumbum',
         'pytest-runner'
     ],
